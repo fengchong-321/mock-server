@@ -1,0 +1,11 @@
+mappingParams:
+  accountId:
+    value: "1234"
+    weight: 1
+  accountName:
+    value: "fengchong"
+    weight: 5
+
+ip: "10.32.213.124"
+
+mockPath: D:\Users\chongfeng\Desktop\test\demos\mockserver\src\main\resources\case\create-account\create-account.json

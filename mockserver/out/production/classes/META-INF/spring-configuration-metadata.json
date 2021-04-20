@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "base",
+      "type": "com.fc.mockserver.model.FilePath",
+      "sourceType": "com.fc.mockserver.model.FilePath"
+    }
+  ],
+  "properties": [
+    {
+      "name": "base.base",
+      "type": "java.lang.String",
+      "sourceType": "com.fc.mockserver.model.FilePath"
+    }
+  ],
+  "hints": []
+}

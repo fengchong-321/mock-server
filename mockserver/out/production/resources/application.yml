@@ -1,0 +1,5 @@
+server:
+  port: 9898
+
+filepath:
+  basepath: "D:/Users/chongfeng/Desktop/test/demos/mockserver/src/main/resources/"

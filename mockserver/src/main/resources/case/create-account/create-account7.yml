@@ -1,0 +1,34 @@
+mappingParams:
+  accountId:
+    value: "1234"
+    weight: 1
+  accountName:
+    value: "fengchong"
+    weight: 3
+
+ip: "10.32.213.124"
+
+callback:
+  url: http://10.32.213.124:9898/test
+  params:
+    name: "fc"
+    id: 1024
+    orderId: ${radNum:8}
+
+thinkingTime:
+  value: 5000
+  unit: MILLISECONDS
+
+mockData: '{
+               "Ack": "success",
+               "errNo": 1000,
+               "errorMsg": "success",
+               "data": {
+                   "userId": "1234",
+                   "userName": "fengchong",
+                  "orderId": "${radNum:12}",
+                  "serId": "${radId:20}",
+                  "createTime": "${timestamp}",
+                  "requestId": "${hook:requestId}"
+               }
+           }'

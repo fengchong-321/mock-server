@@ -1,0 +1,11 @@
+mappingParams:
+  accountId:
+    value: "1234"
+    weight: 100
+  accountName:
+    value: "fengc"
+    weight: 3
+
+ip: "10.32.213.124"
+
+penetrate: http://10.32.213.124:9898/test

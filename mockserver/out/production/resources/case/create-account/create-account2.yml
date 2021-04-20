@@ -1,0 +1,19 @@
+mappingParams:
+  accountId:
+    value: "1234"
+    weight: 1
+  accountName:
+    value: "yuhai"
+    weight: 1
+
+ip: "10.32.213.10"
+
+mockData: '{
+               "Ack": "success",
+               "errNo": 200,
+               "errorMsg": "success",
+               "data": {
+                   "userId": "1234",
+                   "userName": "yuhai"
+               }
+           }'

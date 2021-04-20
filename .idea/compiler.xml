@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com.fc-mock-server" target="1.8" />
+      <module name="com.fc.mock-server" target="1.8" />
+      <module name="demos.mock-server" target="1.8" />
+      <module name="demos.mock-server.main" target="1.8" />
+      <module name="demos.mock-server.test" target="1.8" />
+      <module name="demos_main" target="1.8" />
+      <module name="demos_test" target="1.8" />
+      <module name="mock-server_main" target="1.8" />
+      <module name="mock-server_test" target="1.8" />
+      <module name="mockserver" target="1.8" />
+      <module name="mockserver.main" target="1.8" />
+      <module name="mockserver.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
