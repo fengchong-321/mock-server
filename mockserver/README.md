@@ -44,7 +44,7 @@
 
 ​	数据处理配置样式：{radNum:12} 表示 12位随机数 ， {radId:24}表示24位随机字符串
 
-![image-20210507151201361](D:\Users\chongfeng\Desktop\test\demos\mockserver\img\image-20210507151201361.png)
+![image-20210507151201361](mockserver/img/image-20210507151201361.png)
 
 ### 回调
 
@@ -59,7 +59,7 @@
 
 ​	callback的配置：url是请求，params是参数
 
-![image-20210507151344947](D:\Users\chongfeng\Desktop\test\demos\mockserver\img\image-20210507151344947.png)
+![image-20210507151344947](mockserver/img/image-20210507151344947.png)
 
 ### 透传请求
 
@@ -69,7 +69,7 @@
 
 ​	透传配置：请求报文用调用mock服务的，请求地址设置在penetrate：里
 
-![image-20210507151526421](D:\Users\chongfeng\Desktop\test\demos\mockserver\img\image-20210507151526421.png)
+![image-20210507151526421](mockserver/img/image-20210507151526421.png)
 
 ### 设置等待	
 
@@ -81,4 +81,4 @@
 
   设置等待时间配置： value是值，unit是单位（包括：MILLISECONDS 毫秒，SECONDS 秒）
 
-![image-20210507151658055](D:\Users\chongfeng\Desktop\test\demos\mockserver\img\image-20210507151658055.png)
+![image-20210507151658055](mockserver/img/image-20210507151658055.png)
