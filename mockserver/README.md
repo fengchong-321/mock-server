@@ -82,3 +82,13 @@
   设置等待时间配置： value是值，unit是单位（包括：MILLISECONDS 毫秒，SECONDS 秒）
 
 ![image-20210507151658055](D:\Users\chongfeng\Desktop\test\demos\mockserver\img\image-20210507151658055.png)
+
+
+
+## Demo
+
+​	启动就是正常的Springboot的启动
+
+​	这里有我用的demo：
+
+​			![image-20210507151658055](D:\Users\chongfeng\Desktop\test\demos\mockserver\img\image-20210507151658055.png)				
