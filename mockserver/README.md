@@ -28,7 +28,7 @@
 
   策略配置的样式
 
-  ![image-20210507150914544](D:\Users\chongfeng\Desktop\test\demos\mockserver\img\image-20210507150914544.png)
+  ![image-20210507150914544](mockserver/img/image-20210507150914544.png)
 
   
 
