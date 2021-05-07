@@ -8,6 +8,9 @@ import org.assertj.core.util.Strings;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * 随机字符和随机数的处理
+ */
 public class RandomMockDataDecorator extends AbstractMockDataDecorator {
 
     private static final Pattern partternNum = Pattern.compile("\\$\\{radNum:(.*?)}");
@@ -39,6 +42,7 @@ public class RandomMockDataDecorator extends AbstractMockDataDecorator {
             String radIdLen = matcherString.group(1);
             String radId = RandomUtil.randomString(Integer.parseInt(radIdLen));
             mockData = StringUtils.replace(mockData, originRadId, radId);
+
         }
         return mockData;
     }

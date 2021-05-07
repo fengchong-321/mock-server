@@ -3,7 +3,7 @@ package com.fc.mockserver.model;
 import lombok.Data;
 
 /**
- * mappingParams配置
+ * mappingParams配置实体类
  */
 @Data
 public class MockEntity {

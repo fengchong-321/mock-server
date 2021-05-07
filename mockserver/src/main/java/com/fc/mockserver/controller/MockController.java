@@ -11,10 +11,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
 
+/**
+ * controller层
+ */
 @RestController
 @Slf4j
 public class MockController {
-    private static final Logger LOGGER = LoggerFactory.getLogger(MockController.class);
 
     @Autowired
     private HttpServletRequest servletRequest;
@@ -27,14 +29,14 @@ public class MockController {
         try {
             MockContext context = new MockContext(this.servletRequest);
             observerService.execute(context);
-
             return context.getTargerMockData();
         } catch (Exception e) {
-            LOGGER.error("do mock for uri={} failed.", servletRequest.getRequestURI(), e);
+            log.error("uri={} mock失败.", servletRequest.getRequestURI(), e);
         }
         return "mock failed";
     }
 
+    //  百度搜索的图标处理，不然会产生干扰
     @RequestMapping("favicon.ico")
     public String icon() {
         return "https://www.baidu.com/favicon.ico";

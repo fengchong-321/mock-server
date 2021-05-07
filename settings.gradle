@@ -1,3 +1,5 @@
 rootProject.name = 'demos'
 include 'mockserver'
+include 'ToTest'
+include 'auto-test'
 

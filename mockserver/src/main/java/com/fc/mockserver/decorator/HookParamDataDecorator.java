@@ -8,6 +8,9 @@ import org.assertj.core.util.Strings;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * hook处理
+ */
 @Slf4j
 public class HookParamDataDecorator extends AbstractMockDataDecorator {
 

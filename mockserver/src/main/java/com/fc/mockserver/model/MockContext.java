@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 /**
- * Mock数据的上下文
+ * Mock数据的上下文实体类
  */
 @Data
 @NoArgsConstructor

@@ -3,11 +3,8 @@ package com.fc.mockserver.observer;
 import com.fc.mockserver.Utils.YmlUtils;
 import com.fc.mockserver.model.MockConfig;
 import com.fc.mockserver.model.MockContext;
-import com.google.common.io.Resources;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.lang3.StringUtils;
 
-import javax.annotation.Resource;
 import java.io.File;
 import java.util.Arrays;
 import java.util.List;
@@ -20,11 +17,11 @@ import java.util.stream.Collectors;
 @Slf4j
 public class LoadMockConfigObserver implements MockObserver {
 
+    //  TODO    这里会有问题，spring跑起来后，case加载到内存中了，变更case会不生效，实际场景配置文件这里会调用qconfig去做处理
     private final String BASE_PATH = ClassLoader.getSystemResource("case").getPath().substring(1);
 //private final String BASE_PATH = StringUtils.substringAfter(Resources.getResource("case").toString(), "/");
 
     //    private final String BASE_PATH = "D:\\Users\\chongfeng\\Desktop\\test\\demos\\mockserver\\src\\main\\resources\\case";
-
 
 
     @Override

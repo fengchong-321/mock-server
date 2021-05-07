@@ -7,6 +7,9 @@ import com.fc.mockserver.model.TimeEntity;
 import java.util.Objects;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * 等待时间处理
+ */
 public class ThinkTimeObserver implements MockObserver {
     @Override
     public void update(MockContext context) {

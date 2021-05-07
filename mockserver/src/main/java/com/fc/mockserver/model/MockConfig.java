@@ -5,7 +5,7 @@ import lombok.Data;
 import java.util.Map;
 
 /**
- * 本地Mock数据的配置
+ * 本地Mock数据的配置实体类
  */
 @Data
 public class MockConfig {

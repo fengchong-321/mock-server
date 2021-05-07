@@ -11,6 +11,9 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 
+/**
+ * 本地配置yml文件解析
+ */
 public class YmlUtils {
 
     private static ObjectMapper MAPPER;

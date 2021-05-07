@@ -9,6 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
 
+
+/**
+ * 回调和透传的被测服务（测试使用）
+ */
 @RestController
 @Slf4j
 public class TestController {

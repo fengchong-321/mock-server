@@ -2,6 +2,9 @@ package com.fc.mockserver.decorator;
 
 import com.fc.mockserver.model.MockContext;
 
+/**
+ * 装饰器管理
+ */
 public enum MockDataDecorateManager {
     INSTANCE;
 

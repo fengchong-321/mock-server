@@ -7,6 +7,9 @@ import org.assertj.core.util.Lists;
 import org.springframework.stereotype.Service;
 import java.util.List;
 
+/**
+ * service业务层
+ */
 @Service
 public class ObserverServiceImpl implements ObserverService {
     private List<MockObserver> observers;

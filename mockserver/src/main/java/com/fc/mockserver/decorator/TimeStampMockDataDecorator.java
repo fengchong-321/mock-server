@@ -3,6 +3,9 @@ package com.fc.mockserver.decorator;
 import com.fc.mockserver.model.MockContext;
 import org.apache.commons.lang3.StringUtils;
 
+/**
+ * 时间戳的处理
+ */
 public class TimeStampMockDataDecorator extends AbstractMockDataDecorator {
 
     public TimeStampMockDataDecorator() {

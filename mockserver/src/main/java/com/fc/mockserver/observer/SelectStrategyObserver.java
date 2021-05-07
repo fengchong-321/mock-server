@@ -7,6 +7,9 @@ import lombok.extern.slf4j.Slf4j;
 
 import java.util.Map;
 
+/**
+ * 策略选择
+ */
 @Slf4j
 public class SelectStrategyObserver implements MockObserver {
 

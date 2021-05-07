@@ -10,6 +10,9 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
+/**
+ * 回调
+ */
 @Slf4j
 public class CallbackObserver implements MockObserver {
     @Override

@@ -10,6 +10,9 @@ import org.assertj.core.util.Strings;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+/**
+ * 透传
+ */
 @Slf4j
 public class PenetrateObserver implements MockObserver {
 

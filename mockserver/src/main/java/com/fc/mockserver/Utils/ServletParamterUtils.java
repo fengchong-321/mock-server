@@ -4,6 +4,9 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
+/**
+ * 处理请求参数，将参数Map<String, String[]> 转为 Map<String, String>
+ */
 public class ServletParamterUtils {
 
     public static Map<String, String> getParam(Map<String, String[]> parameterMap) {
