@@ -14,7 +14,6 @@
       <module name="demos_test" target="1.8" />
       <module name="mock-server_main" target="1.8" />
       <module name="mock-server_test" target="1.8" />
-      <module name="mockserver" target="1.8" />
       <module name="mockserver.main" target="1.8" />
       <module name="mockserver.test" target="1.8" />
     </bytecodeTargetLevel>
